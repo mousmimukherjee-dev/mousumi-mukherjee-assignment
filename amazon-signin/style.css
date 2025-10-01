@@ -1,0 +1,192 @@
+*{
+ 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+
+  
+  height: 100vh;
+  
+}
+
+body{
+
+  height: 100%;
+}
+
+.title{
+
+  width: 110px;
+  padding-top: 12px;
+  margin: 10px auto;
+  
+}
+
+.logo{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  
+  
+}
+
+.logo img{
+
+  width: 100%;
+  background-color: white;
+   
+}
+
+.logo p{
+  
+  font-size: 0.85rem;
+  align-self: flex-end;
+  position: relative;
+  margin-bottom: 9px;
+  
+}
+
+form{
+  
+  width: 20%;
+  padding: 50px 20px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 30px auto;
+  box-sizing: 10px;
+  
+}
+
+.information p{
+
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+button{
+
+  width: 100%;
+  min-height: 30px;
+  background-color: #ffd814;
+  border-radius: 10px;
+  border: none;
+  margin: 20px auto;
+  
+ 
+  
+}
+
+button a{
+
+  text-decoration: none;
+  color: #111111;
+}
+
+.signup-form h3{
+  
+  margin: 5px 8px;
+  font-size: 28px;
+}
+
+.signup-form p{
+
+  font-size: 14px;
+  color: #565959;
+}
+
+form input{
+
+  width: 100%;
+  min-height: 30px;
+  border-radius: 4px;
+  padding: 5px 8px;
+  outline: none;
+  text-decoration: none;
+  border: 0.3px solid gray;
+}
+
+form p{
+  
+  margin: 5px 8px;
+  
+}
+
+.customer a{
+
+  font-size: 14px;
+  color:  rgba(10, 72, 142, 0.827);
+}
+
+.existing-customer{
+ 
+  margin: 20px 6px;
+  border-top: 1px solid gray;
+
+}
+
+.existing-customer h3{
+
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.customer-pol p{
+
+  font-size: 12px;
+  margin: 20px 0px;
+
+}
+.footer-links{
+
+  min-height: 86px;
+  border-top: 1px solid gray;
+  padding: 30px;
+}
+
+.footer-links p{
+
+  text-align: center;
+  color: #565959;
+  font-size: 12px;
+  padding: 10px;
+}
+
+
+.links{
+
+  display: flex;
+  justify-content:space-around;
+  color:  rgba(10, 72, 142, 0.827);
+  font-size: 12px;
+}
+
+.footer-links p{
+
+  margin: 10px 0;
+
+}
+
+a{
+
+  color: rgba(10, 72, 142, 0.827);
+}
+
+
+
+@media screen and (max-width:375px){
+  form{
+    width:80%;
+  }
+
+  .links{
+
+    flex-wrap: wrap;
+  }
+}
