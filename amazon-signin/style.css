@@ -180,13 +180,37 @@ a{
 
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:768px){
   form{
-    width:80%;
+    width:100%;
   }
 
   .links{
 
     flex-wrap: wrap;
   }
+
+
+  .footer-links{
+
+    display: table-column;
+  }
+
+  footer{
+
+    width:100%
+  }
+
+  main{
+
+    width: 100%;
+    padding: 1rem;
+  }
+
+  header{
+
+    width: 100%;
+  }
+
+
 }
