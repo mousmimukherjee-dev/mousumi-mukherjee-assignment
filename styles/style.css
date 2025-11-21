@@ -13,26 +13,27 @@ html{
 
 body{
 
- height: 100%;
+ min-height: 100%;
  display: flex;
  flex-direction: column;
  background-color: #d4d1d1;
 
 }
 
-main{
-
-  flex: 1;
-}
 
 .header{
 
-  padding: 2rem;
+  padding: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 0.85rem;
   
+}
+
+main{
+
+  flex-grow: 1;
 }
 
 footer{
@@ -42,7 +43,7 @@ footer{
 
 .top-navbar{
 
-  height: 8%;
+
   background-color: #0f1111;
   color: #ffffff;
   display: flex;
@@ -252,7 +253,7 @@ footer{
 .second-signin{
 
   font-size: 0.85rem;
-  font-weight: 700;
+  font-weight: 600;
   padding: 0;
 }
 
@@ -286,12 +287,12 @@ footer{
   align-items: center;
   justify-content: space-between;
   color: #ffffff;
-  padding: 0.20rem;
+  padding: 0.2rem;
   width: 100%;
-
   position: relative;
-  top: 2rem;
-  z-index: 1000;
+  top: 3rem;
+  
+  
 }
 
 .all{
@@ -438,9 +439,9 @@ h1{
 .hero-section{
 
   background-image: url('../Img/hero-img1.jpg');
-  min-height: 18.75rem;
+  height: 35vmin;
   background-size: cover;
-  margin-top: 3.75rem;
+  margin-top: 3rem;
   animation: opacity 4s linear 1s infinite ;
 }
 
@@ -671,9 +672,14 @@ h3{
   margin-bottom: 0.31rem;
 }
 
+footer{
+
+  height: 20vmin;
+}
+
 .back-top{
 
-  height: 3.12rem;
+  padding: 1rem;
   background-color: #232f3e;
   display: flex;
   justify-content: center;
