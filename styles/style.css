@@ -27,10 +27,11 @@ main{
 
 .header{
 
-  padding: 1.8rem;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 0.85rem;
   
 }
 
@@ -280,16 +281,16 @@ footer{
 .bottom-navbar{
 
   background-color: #232f3e;
-  height: auto;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: #ffffff;
-  padding: 0 1.25rem;
+  padding: 0.20rem;
   width: 100%;
-  height: auto;
+
   position: relative;
-  top: 3.75rem;
+  top: 2rem;
   z-index: 1000;
 }
 
