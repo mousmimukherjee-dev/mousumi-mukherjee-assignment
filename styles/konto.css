@@ -11,8 +11,11 @@
   gap: 2px;
 }
 
-main{
+.konto_main{
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0.92);
 }
 
@@ -24,7 +27,7 @@ main{
 
 .info {
   flex: 28%;
-  width: 10vmin;
+  
   height: 20vmin;
   border: 1px solid gray;
   border-radius: 10px;
@@ -57,6 +60,31 @@ main{
 .info:hover{
 
   background-color: rgba(220, 220, 220, 0.928);
+}
+
+.konto_content_2{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+
+}
+
+.konto_content_mer{
+
+  flex: 28%;
+  width: 10vmin;
+  height: 20vmin;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

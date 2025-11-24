@@ -6,81 +6,76 @@
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="stylesheet" href="../styles/konto.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Ditt Konto</title>
   </head>
   <body>
     <header>
       <div class="top-navbar">
-        <div class="nav-logo">
-          <div class="logo border">
-            <i class="fa-solid fa-bars"></i>
-            <img src="../Img/amazon.logo.png" />
-            <p>.se</p>
-          </div>
-        </div>
+    <div class="nav-logo">
+      <div class="logo border">
+      <i class="fa-solid fa-bars"></i>
+      <a class="logo" href="index.html"><img src="../Img/amazon.logo.png"alt="logo"></a>
+      
+      <p>.se</p>
+    </div>
+    </div>
 
-        <div class="nav-location border">
-          <p class="location-frist">Levererar till 17764 stockholm</p>
-          <div class="location-logo">
-            <i class="fa-solid fa-location-dot"></i>
-            <p class="location-second">Uppdatera Plats</p>
-          </div>
-        </div>
-
-        <div class="nav-search">
-          <div class="nav-category">
-            <select class="category">
-              <option>
-                Alla kategorier<i class="fa-solid fa-caret-down"></i>
-              </option>
-              <option>Amazon-enheter</option>
-              <option>Baby-produkter</option>
-              <option>Bocker</option>
-              <option>Elektronic</option>
-              <option>Film & Tv-serier</option>
-              <option>Fordon</option>
-              <option>Hem & kök</option>
-            </select>
-          </div>
-          <div class="nav-input">
-            <label for="search-input"></label>
-            <input
-              type="text"
-              placeholder="Sök i Amazon.se"
-              name="search"
-              id="search-input"
-            />
-          </div>
-          <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </div>
-        </div>
-        <div class="nav-lang border">
-          <div class="lang-select">
-            <img src="Img/flag-of-sweden.webp" alt="" />
-            <select class="lang-select">
-              <option value="svenska-SV">SV</option>
-              <option value="english-EN">EN</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="nav-signin border">
-          <p class="frist-signin">Hej, logga in</p>
-          <p class="second-signin">Konto och Listor</p>
-        </div>
-
-        <div class="nav-signin border">
-          <p class="frist-signin">Returer</p>
-          <p class="second-signin">& beställningar</p>
-        </div>
-
-        <div class="nav-cart border">
-          <i class="fa-solid fa-cart-shopping"></i>
-          <p>Kundvagn</p>
-        </div>
+    <div class="nav-location border">
+      <p class="location-frist">Levererar till 17764 stockholm</p>
+      <div class="location-logo">
+        <i class="fa-solid fa-location-dot"></i>
+        <p class="location-second">Uppdatera Plats</p>
       </div>
+    </div>
+
+    <div class="nav-search" >
+      <div class="nav-category">
+        <select class="category">
+          <option>Alla kategorier<i class="fa-solid fa-caret-down"></i></option>
+          <option>Amazon-enheter</option>
+          <option>Baby-produkter</option>
+          <option>Bocker</option>
+          <option>Elektronic</option>
+          <option>Film & Tv-serier</option>
+          <option>Fordon</option>
+          <option>Hem & kök</option>
+        </select>
+      </div>
+      <div class="nav-input">
+        <label for="search-input"></label>
+        <input type="text" placeholder="Sök i Amazon.se" name="search" id="search-input">
+      </div>
+      <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <div class="nav-lang border">
+      <div class="lang-select">
+        <img src="Img/flag-of-sweden.webp" alt="">
+        <select class="lang-select">
+          <option value="svenska-SV">SV</option>
+          <option value="english-EN">EN</option>
+        </select>
+      </div>
+      
+    </div>
+
+    <div class="nav-signin border">
+      <a class="first-signin" href="konto.html">Ditt konto</a>
+      <!-- <p class="second-signin">Konto och Listor</p> -->
+    </div>
+
+    <div class="nav-signin border">
+      <a class="signin" href="signin.html">Sign in</a>
+      <!-- <p class="second-signin">& beställningar</p> -->
+    </div>
+
+    <div class="nav-cart border">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <p>Kundvagn</p>
+    </div>
+  </div>
 
       <div class="bottom-navbar">
         <div class="bnav-left">
@@ -255,7 +250,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="konto_main">
       <div class="ditt_konto">
         <h1>Ditt Konto</h1>
       </div>
@@ -350,9 +345,7 @@
       <p>Är du en ny kund? <a href="https://www.amazon.se/ap/register?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.se%2Fref%3Drhf_sign_in&openid.assoc_handle=seflex">Börja här</a></p>
     </div>
   </div>
-
-
-    </main>
+  </main>
 
     <footer>
       <div class="back-top">

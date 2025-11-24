@@ -37,21 +37,36 @@ footer{
 }
 
 .title {
-  width: 110px;
+  width: 100%;
   padding-top: 12px;
   margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+span{
+
+  font-weight: 600;
 }
 
 .logo {
-  width: 100%;
+  
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 2rem;
   align-items: flex-end;
   color: black;
 }
 
+.anchor{
+
+  padding: 1.5rem;
+}
+
 .logo img {
-  width: 100%;
+  width: 164px;
   background-color: white;
 }
 
@@ -59,18 +74,29 @@ footer{
 
 .logo p {
   font-size: 0.85rem;
-  align-self: flex-end;
   position: relative;
-  margin-bottom: 9px;
+  margin-bottom: 16px;
 }
 
 form {
-  width: 30%;
+  width: 35%;
   padding: 19px 20px;
   border: 1px solid gray;
   border-radius: 8px;
   box-sizing: 10px;
   
+}
+
+.border{
+
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.border:hover{
+
+  border: 1px solid black;
 }
 
 .information p {
@@ -171,6 +197,7 @@ form p {
 
 a {
   color: rgba(10, 72, 142, 0.827);
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {

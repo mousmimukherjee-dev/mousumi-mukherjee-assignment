@@ -55,13 +55,13 @@ footer {
 }
 
 .nav-logo img {
-  width: 87%;
+  width: 100%;
 }
 
-.logo {
+.logo{
   display: flex;
   flex-shrink: 1;
-  justify-content: space-between;
+  justify-content:center;
   align-items: flex-end;
 }
 
@@ -72,8 +72,7 @@ footer {
 .logo p {
   font-size: 0.85rem;
   flex: flex-end;
-  position: relative;
-  bottom: 0.3rem;
+  
 }
 
 .border {
@@ -194,10 +193,11 @@ footer {
   color: #ffffff;
 }
 
-.frist-signin {
+.first-signin {
   color: #ffffff;
   font-size: 0.75rem;
   padding: 0;
+  text-decoration: none;
 }
 
 .second-signin {
@@ -209,6 +209,12 @@ footer {
 .nav-cart {
   display: flex;
   align-items: center;
+  color: #ffffff;
+}
+
+.signin{
+
+  text-decoration: none;
   color: #ffffff;
 }
 
@@ -800,7 +806,7 @@ li {
     height: 42vh;
     background-size: contain;
     background-position: center;
-    margin-top: 3.6em;
+    margin-top: 4.2em;
   }
 
   .product-box {
