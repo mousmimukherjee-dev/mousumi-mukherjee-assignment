@@ -24,7 +24,6 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 0.85rem;
-  
 }
 
 main {
@@ -58,11 +57,33 @@ footer {
   width: 100%;
 }
 
-.logo{
+.logo {
   display: flex;
   flex-shrink: 1;
-  justify-content:center;
+  justify-content: center;
   align-items: flex-end;
+}
+
+.ham_menu {
+  width: 40%;
+  height: 100vh;
+  background-color: #ffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  color: #2162a1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.anchor{
+
+  color: #2162a1;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 .nav-logo .logo > i {
@@ -72,7 +93,6 @@ footer {
 .logo p {
   font-size: 0.85rem;
   flex: flex-end;
-  
 }
 
 .border {
@@ -212,8 +232,7 @@ footer {
   color: #ffffff;
 }
 
-.signin{
-
+.signin {
   text-decoration: none;
   color: #ffffff;
 }
@@ -239,8 +258,6 @@ footer {
   justify-content: space-between;
   color: #ffffff;
   width: 100%;
-  
-  
 }
 
 .all {
@@ -368,7 +385,6 @@ h1 {
   height: 45vmin;
   background-size: 100%;
   animation: opacity 4s linear 1s infinite;
-
 }
 
 @keyframes opacity {
@@ -514,7 +530,6 @@ h3 {
   background: #ffffff;
   margin: 1.25rem 0;
   padding: 30px 0;
-  
 }
 
 .signin-section .content {
@@ -741,10 +756,13 @@ li {
     font-size: 1.5rem;
   }
 
+  .logo i:hover ~ .ham_menu {
+    transform: translateX(0);
+  }
+
   .top-navbar .nav-logo > .logo > p {
     font-size: 0.8rem;
-    position: relative;
-    top: 0.1rem;
+   
   }
 
   .top-navbar .nav-logo > .logo {
@@ -885,24 +903,19 @@ li {
     padding: 1rem 1rem;
   }
 
-  .content h3{
-
+  .content h3 {
     text-align: center;
   }
 
-  
-  .header{
-
+  .header {
     padding: 5rem;
   }
 
-  .top-navbar{
-
+  .top-navbar {
     height: 20%;
   }
 
-  .nav-cart{
-
+  .nav-cart {
     right: 1rem;
   }
 }
